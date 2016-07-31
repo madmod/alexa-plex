@@ -35,9 +35,12 @@ StartSpecificEpisodeIntent Play episode {one|episodeNumber} of {showName}
 StartSpecificEpisodeIntent Play episode {two|episodeNumber} of {showName}
 StartSpecificEpisodeIntent Play episode {three|episodeNumber} of {showName}
 StartSpecificEpisodeIntent Play episode {four|episodeNumber} of {showName}
-PauseIntent Stop 
+PauseIntent Stop
+PauseIntent Stop Playing
 PauseIntent Pause
 ResumeIntent Unpause
+ResumeIntent Continue
 ResumeIntent Start Playing
 ResumeIntent Keep Playing
+ResumeIntent Continue Playing
 ResumeIntent Resume
